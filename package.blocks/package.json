@@ -4,7 +4,7 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc index.ts"
   },
   "dependencies": {
     "typescript": "^5",
