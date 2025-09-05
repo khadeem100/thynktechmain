@@ -89,10 +89,10 @@ export function BlocksGrid() {
     <section className="py-20 bg-white">
       <MarketingContainer>
         <h2 className="text-4xl font-bold text-center tracking-tight text-gray-900">
-          Beautifully designed blocks
+          We provide tech solutions
         </h2>
         <p className="text-base md:text-lg text-pretty text-center">
-          Use our drag-and-drop builder to create your page.
+          for every branch and company, big or small.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-7 gap-4 md:gap-8 mt-8 md:mt-16">
           <div className="col-span-1 md:col-span-2 flex flex-col justify-start gap-4 md:gap-8">

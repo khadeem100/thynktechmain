@@ -9,52 +9,57 @@ import {
 
 const landingPageQuestions = [
   {
-    question: 'What is Linky?',
+    question: 'What is Thynk Tech?',
     answer:
-      "Linky is a single link that you can use to house all the links to your social media profiles, websites, and other content. It's a great way to share all your content in one place, whether it be your favourite songs on Spotify, or a link to your latest products.",
+      "Thynktech is a self-service IT platform where businesses can quickly access and manage websites, webshops, hosting, databases, apps, and AI solutions all in one place.",
   },
   {
-    question: 'What does link in bio mean?',
+    question: 'What does off-the-shelf service mean?',
     answer:
-      "A link in bio is a single link that you can use to house all of the links that you want to share with your audience. Whether you're a creator sharing links to your social media profiles, or a business sharing links to your products and services, a link in bio is a great way to share all your content in one place.",
+      "Off-the-shelf services are ready-made IT solutions that businesses can purchase and use immediately without custom development, such as pre-built websites, apps, templates, hosting packages, or AI tools. They save time and cost by providing standard solutions that work out of the box.",
   },
   {
-    question: 'Why do I need Linky?',
+    question: 'Why do I need Thynk Tech?',
     answer:
-      'Linky is a singular link solution designed to bridge your audience to every aspect of your digital presence—encompassing who you are, what you do, and what matters to you. It simplifies the sharing process by consolidating multiple links into one, ensuring that your followers, visitors, and customers can effortlessly access all they need in a single location.',
+      'You need Thynk Tech to get a complete, self-service IT solution for your business whether it’s websites, webshops, hosting, databases, or AI tools allowing you to launch and manage digital services quickly, efficiently, and without the need for an IT team.',
   },
   {
     question: 'Is it free?',
     answer:
-      'We stopped offering free pages earlier this year, however our pricing starts from only $4 per month.',
+      'Thynk Tech is not completely free. The Starter Plan gives small businesses access to basic services like a simple website, limited hosting, and AI tools at an affordable price, while Enterprise features like custom AI models, unlimited products, dedicated hosting, and advanced automation require a paid subscription.',
   },
   {
     question: 'Can I use my own domain?',
     answer:
-      "We're currently rolling out custom domains to a select group of users. If you're interested in trying it out, please reach out to us.",
+      "Yes, with Thynk Tech you can use your own custom domain. The Starter Plan allows you to connect a personal domain or use a free subdomain, while Enterprise clients can link multiple domains for full branding and professional online presence.",
   },
 ];
 
 const pricingQuestions = [
-  {
-    question: 'What is Linky?',
+ {
+    question: 'What is Thynk Tech?',
     answer:
-      "Linky is a single link that you can use to house all the links to your social media profiles, websites, and other content. It's a great way to share all your content in one place, whether it be your favourite songs on Spotify, or a link to your latest products.",
+      "Thynktech is a self-service IT platform where businesses can quickly access and manage websites, webshops, hosting, databases, apps, and AI solutions all in one place.",
   },
   {
-    question: 'Do you offer yearly pricing?',
+    question: 'What does off-the-shelf service mean?',
     answer:
-      'For teams that require a more tailored solution, we are happy to offer a more custom billing solution. Please reach out to us to discuss your needs.',
+      "Off-the-shelf services are ready-made IT solutions that businesses can purchase and use immediately without custom development, such as pre-built websites, apps, templates, hosting packages, or AI tools. They save time and cost by providing standard solutions that work out of the box.",
   },
   {
-    question: 'I am an agency, can I use Linky for my clients?',
+    question: 'Why do I need Thynk Tech?',
     answer:
-      "Yes, you can use Linky for your clients. You would be best suited for the team plan where you can invite your teammates to manage your clients' pages. We also offer the ability to create separate team spaces for each of your clients, where you can manage their pages. Please reach out to us to discuss your needs.",
+      'You need Thynk Tech to get a complete, self-service IT solution for your business whether it’s websites, webshops, hosting, databases, or AI tools allowing you to launch and manage digital services quickly, efficiently, and without the need for an IT team.',
   },
   {
-    question: 'What methods of payment do you support?',
+    question: 'Is it free?',
     answer:
-      'We use Stripe as our payment processor. They support all major credit cards, as well as a number of other country specific payment methods.',
+      'Thynk Tech is not completely free. The Starter Plan gives small businesses access to basic services like a simple website, limited hosting, and AI tools at an affordable price, while Enterprise features like custom AI models, unlimited products, dedicated hosting, and advanced automation require a paid subscription.',
+  },
+  {
+    question: 'Can I use my own domain?',
+    answer:
+      "Yes, with Thynk Tech you can use your own custom domain. The Starter Plan allows you to connect a personal domain or use a free subdomain, while Enterprise clients can link multiple domains for full branding and professional online presence.",
   },
 ];
 

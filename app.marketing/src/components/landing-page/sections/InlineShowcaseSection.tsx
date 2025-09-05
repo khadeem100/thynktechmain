@@ -99,13 +99,13 @@ export function InlineShowcaseSection() {
       <MarketingContainer className="text-center">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight leading-tight md:leading-snug">
-            With integrations so you can show your{' '}
-            <span className="font-black">latest posts</span>
-            <IconSet variant="social" />, your{' '}
-            <span className="font-black">latest videos</span>
-            <IconSet variant="video" />, or what you're{' '}
-            <span className="font-black">listening to</span>{' '}
-            <IconSet variant="music" /> right now!{' '}
+            At Thynk we leverage {' '}
+            <span className="font-black">The sleekest </span>
+            <IconSet variant="social" />, The{' '}
+            <span className="font-black"> Newest</span>
+            <IconSet variant="video" /> And only the fastest{' '}
+            <span className="font-black">Frameworks</span>{' '}
+            <IconSet variant="music" /> On the market!{' '}
           </h2>
         </div>
       </MarketingContainer>

@@ -84,19 +84,19 @@ export function CallToActionBlock() {
       <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
         <div className="flex-1 flex flex-col gap-2 col-span-1 max-w-md py-8 md:py-16 px-8">
           <h2 className="text-3xl md:text-4xl font-black tracking-tight">
-            Let&apos;s build your page
+            Let&apos;s build your infrastructure
           </h2>
           <p className="text-base md:text-xl">
-            Creating your first page and getting it live takes a matter of
-            minutes. Let&apos;s start with your username.
+            Taking the first steps and getting you started takes a matter of
+            minutes. Let&apos;s start with your Company Name.
           </p>
 
           <div className="mt-6">
             <div className="w-full md:w-auto inline-flex flex-row items-center rounded-full bg-white pl-4 border border-slate-200 shadow-sm">
-              <span className="text-slate-600 font-medium">lin.ky/</span>
+              <span className="text-slate-600 font-medium">thynktech/</span>
               <input
                 type="text"
-                placeholder="name"
+                placeholder="company"
                 className="bg-transparent border-0 px-0 focus:outline-none focus:ring-0 rounded-full w-full"
               />
               <LoginWidget
@@ -107,7 +107,7 @@ export function CallToActionBlock() {
                     size="xl"
                     className="font-bold flex group rounded-full px-6 md:px-10"
                   >
-                    Claim Page
+                    Claim Spot
                     <ArrowRightIcon className="w-5 h-5 ml-2 -mr-6 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 group-hover:-mr-4 transition-all ease-in-out duration-200" />
                   </Button>
                 }

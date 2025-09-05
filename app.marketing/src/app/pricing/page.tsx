@@ -24,10 +24,10 @@ export default async function PricingPage() {
     <div className="bg-gradient-to-b from-[#f9f9f8] to-[#f5f3ea] pt-24 sm:pt-32 pb-8">
       <MarketingContainer className="text-center">
         <h1 className="text-pretty text-5xl lg:text-6xl font-black text-black tracking-tight">
-          Go Premium.
+          Upgrade or Start
         </h1>
         <p className="mt-6 text-xl font-medium text-gray-600">
-          Take Linky to the next level with one of our paid plans.
+          Take your business to the next level with one of our paid plans.
         </p>
       </MarketingContainer>
       <section className="py-16">
@@ -42,7 +42,7 @@ export default async function PricingPage() {
               className="text-2xl md:text-3xl font-semibold text-[#222] mb-8 leading-snug"
               style={{ fontVariationSettings: "'SERF' 10, 'wght' 500" }}
             >
-              "I really value how Linky compliments my aesthetic while giving me
+              "I really value how Thynk Tech automated my shipping process while giving me
               the flexibility I need to showcase my work."
             </blockquote>
             <div className="flex items-center gap-3 mt-4">
@@ -57,7 +57,7 @@ export default async function PricingPage() {
                 <div className="font-semibold text-base text-[#222]">
                   de LVCɅ
                 </div>
-                <div className="text-sm text-[#555]">lin.ky/delucax99</div>
+                <div className="text-sm text-[#555]">thynktech/delucax</div>
               </div>
             </div>
           </div>

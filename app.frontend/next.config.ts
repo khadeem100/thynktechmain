@@ -66,6 +66,15 @@ const nextConfig: NextConfig = {
         hostname: 'cdn.lin.ky',
         port: '',
       },
+            ...(process.env.NODE_ENV === 'development'
+        ? [
+            {
+              protocol: 'http' as const,
+              hostname: 'localhost',
+              port: '3000',
+            },
+          ]
+        : []),
     ],
   },
 };

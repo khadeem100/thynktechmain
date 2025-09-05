@@ -55,7 +55,7 @@ const nextConfig: NextConfig = {
         hostname: 'eu-west-2.graphassets.com',
         port: '',
       },
-      ...(process.env.NODE_ENV === 'development'
+            ...(process.env.NODE_ENV === 'development'
         ? [
             {
               protocol: 'http' as const,

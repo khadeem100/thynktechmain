@@ -8,6 +8,12 @@ import {
   LockClosedIcon,
   PaintBrushIcon,
   UserGroupIcon,
+  ShoppingCartIcon,
+  CpuChipIcon,
+  ServerIcon,
+  CircleStackIcon,
+  DevicePhoneMobileIcon,
+  ChartBarIcon,
 } from '@heroicons/react/24/outline';
 import { cn } from '@trylinky/ui';
 import Image, { StaticImageData } from 'next/image';
@@ -54,6 +60,12 @@ const icons = {
   paint: PaintBrushIcon,
   check: CheckBadgeIcon,
   user: UserGroupIcon,
+  shop: ShoppingCartIcon,
+  ai: CpuChipIcon,
+  server: ServerIcon,
+  database: CircleStackIcon,
+  phone: DevicePhoneMobileIcon,
+  seo: ChartBarIcon,
 };
 
 const SmallFeatureItem: React.FC<{
@@ -78,19 +90,19 @@ export const FeaturesSection = () => {
       <MarketingContainer>
         <div className="text-center mb-12 md:mb-16">
           <h2 className="text-4xl   font-bold tracking-tight text-gray-900">
-            Tools to help you grow
+            Of the shelf Services
           </h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
           <FeatureItem
             imageSrc={analyticsImg}
-            title="Analytics"
-            description="See how your page is performing with our built-in analytics."
+            title="Softwares"
+            description="from CRMs to analytics tools, we have you covered."
           />
           <FeatureItem
             imageSrc={dropDragImg}
-            title="Live blocks"
-            description="Show live data on your page with our real-time integrations."
+            title="Applications"
+            description="from websites to mobile apps, we have you covered."
           />
         </div>
       </MarketingContainer>
@@ -104,45 +116,45 @@ export const ExpandedFeaturesSection = () => {
       <MarketingContainer>
         <div className="text-center mb-12 md:mb-16">
           <h2 className="text-4xl   font-bold tracking-tight text-gray-900">
-            And much much more
+            And so much more
           </h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
           <SmallFeatureItem
-            icon="globe"
+            icon="ai"
             iconClassName="text-blue-500"
-            title="Custom domains"
-            description="Use your own domain name to make your page more professional."
+            title="Artificial Intelligence"
+            description="Do not get left behind, we help you integrate AI into your business."
           />
           <SmallFeatureItem
-            icon="lock"
+            icon="shop"
             iconClassName="text-green-500"
-            title="Private pages"
-            description="Build pages that are only accessible to you and your team."
+            title="Webshops"
+            description="Want to sell products online? Thynk Tech has got you covered."
           />
           <SmallFeatureItem
-            icon="document"
+            icon="server"
             iconClassName="text-yellow-500"
-            title="Forms"
-            description="Collect emails, phone numbers, and more with our built-in form builder."
+            title="Hosting"
+            description="In need of a reliable hosting provider? We got you covered."
           />
           <SmallFeatureItem
-            icon="paint"
+            icon="database"
             iconClassName="text-purple-500"
-            title="Custom themes"
-            description="Match your page to your brand with our custom theme builder."
+            title="Enterprise Databases"
+            description="Need to store and manage large amounts of data? We can help."
           />
           <SmallFeatureItem
-            icon="check"
+            icon="phone"
             iconClassName="text-red-500"
-            title="Verified pages"
-            description="Get a badge to show that your page is verified."
+            title="Custom mobile apps"
+            description="Mobile apps to reach your customers on the go."
           />
           <SmallFeatureItem
-            icon="user"
+            icon="seo"
             iconClassName="text-gray-500"
-            title="Agency support"
-            description="Manage multiple pages and users with our agency features."
+            title="SEO & Analytics"
+            description="Get found online and track your performance."
           />
         </div>
       </MarketingContainer>

@@ -10,18 +10,18 @@ import React from 'react';
 // Import the component
 
 const colors = [
-  '#8CC640',
-  '#07B151',
-  '#2FBBB3',
-  '#2357BC',
-  '#4C489B',
-  '#733B97',
-  '#AF3A94',
-  '#D52127',
-  '#F36621',
-  '#F6851E',
-  '#FBB40F',
-  '#FCED23',
+  '#00bfff',
+  '#12c2fd',
+  '#2ab3e1',
+  '#21bbef',
+  '#12a5d6',
+  '#1a92bb',
+  '#52d2fd',
+  '#2d7f9b',
+  '#6cd3f6',
+  '#85cee6',
+  '#2493b8',
+  '#45a0bf',
 ];
 
 export default function Hero() {
@@ -36,15 +36,15 @@ export default function Hero() {
                 styles.title
               )}
             >
-              <span className={styles.titleFirstPart}>The </span>
+              <span className={styles.titleFirstPart}>At </span>
               <span className={cn('inline-flex', styles.titleRainbow)}>
                 {colors.map((color, index) => (
                   <span key={color} style={{ color: color }} className="inline">
-                    {'delightfully'.charAt(index)}
+                    {'ThynkTech'.charAt(index)}
                   </span>
                 ))}
               </span>{' '}
-              <span className={styles.titleSecondPart}>rich link-in-bio.</span>
+              <span className={styles.titleSecondPart}>Your business thrive.</span>
             </h1>
 
             <span
@@ -53,8 +53,8 @@ export default function Hero() {
                 styles.subtitle
               )}
             >
-              Linky is the open source link-in-bio that integrates with your
-              favorite platforms to keep your page fresh.
+              ThynkTech is your one stop for improving your digital footprint
+              through off the shelf AI solutions.
             </span>
 
             <div
@@ -64,10 +64,10 @@ export default function Hero() {
               )}
             >
               <div className="w-full inline-flex flex-row items-center rounded-full bg-white pl-4 border border-slate-200 shadow-sm justify-center">
-                <span className="text-slate-600 font-medium">lin.ky/</span>
+                <span className="text-slate-600 font-medium">thynktech/</span>
                 <input
                   type="text"
-                  placeholder="name"
+                  placeholder="company"
                   className="bg-transparent border-0 px-0 focus:outline-none focus:ring-0 rounded-full w-full"
                 />
                 <LoginWidget
@@ -78,7 +78,7 @@ export default function Hero() {
                       size="xl"
                       className="font-bold flex group rounded-full px-6 md:px-10"
                     >
-                      Claim Page
+                      Make appointment
                       <ArrowRightIcon className="w-5 h-5 ml-2 -mr-6 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 group-hover:-mr-4 transition-all ease-in-out duration-200" />
                     </Button>
                   }
@@ -90,7 +90,7 @@ export default function Hero() {
                   target="_blank"
                   className="text-slate-500 text-xs font-medium text-left pl-0"
                 >
-                  See an example page →
+                  See what we offer →
                 </Link>
               </Button>
             </div>
@@ -132,7 +132,7 @@ export default function Hero() {
                 />
               </div>
               <span className="text-xs font-medium text-slate-500 block">
-                Trusted by 3000+ creators
+                Trusted by 3000+ startups and SME's
               </span>
             </div>
           </div>
