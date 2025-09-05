@@ -29,7 +29,6 @@
     "turbo": "^2.3.3"
   },
   "scripts": {
-    "build": "turbo run build:frontend --filter=@trylinky/frontend && turbo run prisma:migrate prisma:generate --filter=@trylinky/prisma && turbo run build:api --filter=@trylinky/api",
     "lint": "turbo lint",
     "dev": "turbo dev",
     "dev:migrate": "dotenvx run -f .env.local -- prisma migrate dev --schema ./package.prisma/prisma/schema.prisma",
