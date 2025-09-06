@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "npm run copy-tinybird-tracker && dotenvx run -f ./.env.local -- next dev",
-    "copy-tinybird-tracker": "powershell -Command Copy-Item ../package.tinybird/dist/tracker.js -Destination public/assets -Force",
+    "copy-tinybird-tracker": "cp ../package.tinybird/dist/tracker.js  public/assets",
     "build:frontend": "next build",
     "start:frontend": "next start",
     "lint": "next lint",
