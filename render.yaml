@@ -2,8 +2,8 @@ databases:
   - name: thynktech
     databaseName: khadeem
     user: khadeem
-    plan: free
-    region: Oregon (US West)
+    plan: basic
+    region: Oregon
     ipAllowList:
       - source: 0.0.0.0/0
         description: everywhere
