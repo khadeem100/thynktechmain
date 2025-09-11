@@ -1,13 +1,13 @@
 databases:
-  - name: thynktechbase
-    databaseName: thynktechbase
-    user: dbmasteruser
+  - name: thynktech
+    databaseName: khadeem
+    user: khadeem
     plan: free
-    region: eu-north-1
+    region: Oregon (US West)
     ipAllowList:
       - source: 0.0.0.0/0
         description: everywhere
-    postgresMajorVersion: '16'
+    postgresMajorVersion: '17'
     diskSizeGB: 1
 services:
   - type: web
