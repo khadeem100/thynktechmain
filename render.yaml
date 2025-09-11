@@ -2,7 +2,7 @@ databases:
   - name: default
     databaseName: postgres
     user: postgres.ynmyrleebgcjlfnxtang
-    plan: unknown
+    plan: free
     region: eu-north-1
     ipAllowList:
       - source: 0.0.0.0/0
