@@ -2,7 +2,7 @@ databases:
   - name: thynktech
     databaseName: khadeem
     user: khadeem
-    plan: basic
+    plan: Basic-256mb
     region: Oregon
     ipAllowList:
       - source: 0.0.0.0/0
