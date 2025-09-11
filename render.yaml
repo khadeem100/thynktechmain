@@ -113,5 +113,5 @@ services:
       --filter=@trylinky/api
     startCommand: turbo run start:api
     domains:
-      - api.lin.ky
+      - 
 version: '1'
