@@ -1,7 +1,7 @@
 databases:
-  - name: default
-    databaseName: postgres
-    user: postgres.ynmyrleebgcjlfnxtang
+  - name: thynktechbase
+    databaseName: thynktechbase
+    user: dbmasteruser
     plan: free
     region: eu-north-1
     ipAllowList:
