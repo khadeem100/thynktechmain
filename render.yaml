@@ -74,10 +74,6 @@ services:
         fromDatabase:
           name: thynktech
           property: connectionString
-      - key: SENTRY_DSN
-        sync: false
-      - key: SENTRY_AUTH_TOKEN
-        sync: false
       - key: PORT
         sync: false
       - key: NODE_ENV
