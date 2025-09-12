@@ -13,7 +13,7 @@ services:
   - type: web
     name: glow-api
     runtime: node
-    repo: https://github.com/trylinky/linky
+    repo: https://github.com/khadeem100/thynktechmain
     plan: starter
     envVars:
       - key: INSTAGRAM_CLIENT_SECRET
